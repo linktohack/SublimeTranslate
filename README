@@ -1,0 +1,4 @@
+git clone https://github.com/linktohack/Sublime-GoogleTranslate.git GoogleTranslate
+cd GoogleTranslate
+git submodule init
+git submodule update
