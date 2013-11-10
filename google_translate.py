@@ -3,7 +3,7 @@ from GoogleTranslate.google_translate_python.translate import Translator
 
 
 class TranslateCommand(sublime_plugin.TextCommand):
-    def run(self, edit):
+    def run(self, edit, extend=False):
         settings = sublime.load_settings('GoogleTranslate.sublime-settings')
         from_lang =  settings.get('from_lang', '')
         to_lang =  settings.get('to_lang', '')
@@ -11,4 +11,9 @@ class TranslateCommand(sublime_plugin.TextCommand):
         
         for region in self.view.sel():
             translation = translator.translate(self.view.substr(region))
-            self.view.replace(edit, region, translation)
+            if extend:
+                self.view.insert(edit, region.end(), '\n' + translation + '\n\n')
+            else:
+                self.view.replace(edit, region, translation)
+
+# vim:set ts=4 sw=4:
