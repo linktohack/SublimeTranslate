@@ -2,15 +2,19 @@
 The name should make sense :D
 
 ## How to install
+```bash
 git clone https://github.com/linktohack/Sublime-GoogleTranslate.git GoogleTranslate
 cd GoogleTranslate
 git submodule init
 git submodule update
+```
 
 or clone the submodule manually (if the above code do nothing)
 
+```bash
 cd GoogleTranslate
 git submodule add https://github.com/linktohack/google-translate-python.git google_translate_python
+```
 
 ## Usage
 The default key binding is Ctrl+Alt+T.
@@ -30,9 +34,9 @@ file. Copy the value to your custom Key biding and edit to your like.
 
 There is 3 arguments that can be edited in both way:
 
-*`from_lang`*: language to be translated from
-*`to_lang`*: language to translate into
-*`extend`*: boolean: If false, the translated text will be placed right at the
+* *`from_lang`*: language to be translated from
+* *`to_lang`*: language to translate into
+* *`extend`*: boolean: If false, the translated text will be placed right at the
 position of the old text (that should look better in most case.) Otherwise, it
 will be add after the old text (if you would look carefully in to both
 original and translated text.)
