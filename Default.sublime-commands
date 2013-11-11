@@ -23,12 +23,5 @@
         {
             "file": "${packages}/GoogleTranslate/Default.sublime-keymap"
         }
-    },
-    {
-        "caption": "Preferences: Google Translate Key Bindings – User",
-        "command": "open_file", "args":
-        {
-            "file": "${packages}/User/GoogleTranslate.sublime-keymap"
-        }
     }
 ]

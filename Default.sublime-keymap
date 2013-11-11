@@ -1,3 +1,10 @@
 [
-	{ "keys": ["ctrl+alt+t"], "command": "translate"}
+    { "keys": ["ctrl+alt+t"], "command": "translate",
+        "args":
+        {
+            "from_lang": "",
+            "to_lang": "en",
+            "extend": false
+        }
+    }
 ]

@@ -1,4 +1,5 @@
 {
-	"from_lang": "",
-	"to_lang": "fr"
+    "from_lang": "",
+    "to_lang": "fr",
+    "extend": false
 }
