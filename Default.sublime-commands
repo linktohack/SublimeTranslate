@@ -1,7 +1,7 @@
 [
     {
         "caption": "Google Translate: Translate",
-        "command": "upgrade_all_packages"
+        "command": "translate"
     },
     {
         "caption": "Preferences: Google Translate Settings – Default",
