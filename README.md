@@ -1,7 +1,7 @@
 ## What is this?
 The name should make sense :D
 
-## How to install
+## How to install?
 ```bash
 git clone https://github.com/linktohack/Sublime-GoogleTranslate.git GoogleTranslate
 cd GoogleTranslate
@@ -12,6 +12,7 @@ git submodule update
 or clone the submodule manually (if the above code do nothing)
 
 ```bash
+git clone https://github.com/linktohack/Sublime-GoogleTranslate.git GoogleTranslate
 cd GoogleTranslate
 git submodule add https://github.com/linktohack/google-translate-python.git google_translate_python
 ```
@@ -19,20 +20,20 @@ git submodule add https://github.com/linktohack/google-translate-python.git goog
 ## Usage
 The default key binding is Ctrl+Alt+T.
 
-Select the text you want to translate and hit the default key et.. voila!
+Select the text you want to translate and hit the default key et.. voilà!
 
 ## Customize
-We have to choices of configuration:
+We have two choices of configuration:
 
 1. Default behavior via settings
-Type: `Google` into the Command Palette... and open both Preference file. Copy
+Type: `Google` into the `Command Palette...` and open both Preference file. Copy
 the value from the Default settings to the custom one and edit to your like.
 
 2. Via Key binding arguments:
-Type `Google` into the Command Palette... and open the Default Key binding
+Type `Google` into the `Command Palette...` and open the Default Key binding
 file. Copy the value to your custom Key biding and edit to your like.
 
-There is 3 arguments that can be edited in both way:
+There is 3 arguments that can be edited in both ways:
 
 * *`from_lang`*: language to be translated from
 * *`to_lang`*: language to translate into
