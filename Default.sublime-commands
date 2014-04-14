@@ -1,27 +1,27 @@
 [
     {
-        "caption": "Google Translate: Translate",
+        "caption": "Sublime Translate: Translate",
         "command": "translate"
     },
     {
-        "caption": "Preferences: Google Translate Settings – Default",
+        "caption": "Preferences: Sublime Translate Settings – Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/GoogleTranslate/GoogleTranslate.sublime-settings"
+            "file": "${packages}/SublimeTranslate/SublimeTranslate.sublime-settings"
         }
     },
     {
-        "caption": "Preferences: Google Translate Settings – User",
+        "caption": "Preferences: Sublime Translate Settings – User",
         "command": "open_file", "args":
         {
-            "file": "${packages}/User/GoogleTranslate.sublime-settings"
+            "file": "${packages}/User/SublimeTranslate.sublime-settings"
         }
     },
     {
-        "caption": "Preferences: Google Translate Key Bindings – Default",
+        "caption": "Preferences: Sublime Translate Key Bindings – Default",
         "command": "open_file", "args":
         {
-            "file": "${packages}/GoogleTranslate/Default.sublime-keymap"
+            "file": "${packages}/SublimeTranslate/Default.sublime-keymap"
         }
     }
 ]
