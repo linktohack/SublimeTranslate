@@ -1,10 +1,10 @@
 import sublime, sublime_plugin
-from GoogleTranslate.google_translate_python.translate import Translator
+from SublimeTranslate.google_translate_python.translate import Translator
 
 
 class TranslateCommand(sublime_plugin.TextCommand):
     def run(self, edit, extend=False, from_lang='', to_lang=''):
-        settings = sublime.load_settings('GoogleTranslate.sublime-settings')
+        settings = sublime.load_settings('SublimeTranslate.sublime-settings')
         if not extend:
             extend = settings.get('extend', False)
         if from_lang == '':
